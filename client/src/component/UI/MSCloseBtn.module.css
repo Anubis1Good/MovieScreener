@@ -1,0 +1,8 @@
+.msBtn{
+  text-align: end;
+  font-size: 1.6rem;
+  
+}
+.msBtn span{
+  cursor: pointer;
+}

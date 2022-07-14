@@ -1,0 +1,33 @@
+.loader{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid rgb(0, 119, 255);
+  border-top: none;
+  border-bottom: none;
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  border-radius: 50%;
+  animation: rotate 2s infinite linear;
+}
+@keyframes rotate {
+  from {
+      transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.loader > div{
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  background-color: rgb(0, 119, 255);
+}
+.loaderCont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}

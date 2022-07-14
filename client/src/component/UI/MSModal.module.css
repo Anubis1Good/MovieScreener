@@ -1,0 +1,28 @@
+.msModal{
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  display: none;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.msModal.active {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+}
+.msModalContent{
+  position: relative;
+  padding: 0.5rem 1rem 2.7rem 1rem;
+  background: #342795;
+  border-radius: 1rem;
+  min-width: 25rem;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-size: 1.5rem;
+  margin: 3rem;
+  max-height: 90%;
+  overflow-y:auto;
+}
